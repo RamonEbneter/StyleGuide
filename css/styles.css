@@ -11,7 +11,7 @@ body{
 	/*font-family: 'Lato', sans-serif; */
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem;
-	background: #fbfffa;
+	background: #f5f5f5;
 	color: #3d3d3d;
 }
 
@@ -87,7 +87,8 @@ div.logo img {
 
 #colours li.third{
 	background-color: #f5f5f5;
-	color: #000000
+	color: #000000;
+	border: 1px solid black
 }
 #colours li.fourth{
 	background-color: #000000;
