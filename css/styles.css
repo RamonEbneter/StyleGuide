@@ -1,13 +1,15 @@
 /* CSS-Styleguide * * * * * * * * */
 
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-body{
+body {
 	/*font-family: 'Lato', sans-serif; */
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem;
@@ -24,7 +26,7 @@ body{
 
 /* Header * * * * * * * * */
 
-header{
+header {
 	background: #8Ad071;
 	padding: 20px 0;
 	text-align: center;
@@ -32,12 +34,13 @@ header{
 	font-weight: 400;
 }
 
-header intro{
+header intro {
 	margin: 0 auto;
 	max-width: 900px;
 }
 
-header a, header a:visited{
+header a,
+header a:visited {
 	color: #fbfffa;
 	font-size: 32px;
 	font-size: 1.5rem;
@@ -45,9 +48,10 @@ header a, header a:visited{
 }
 
 header a:hover {
- color: #f0c026;
+	color: #f0c026;
 }
-div.logo{
+
+div.logo {
 	background-color: #fbfffa;
 	float: left;
 	display: block;
@@ -55,42 +59,79 @@ div.logo{
 	margin-left: 50px;
 	border: 2px solid #3d3d3d;
 }
+
 div.logo img {
 	width: 100px;
 }
 
 
-/* FARBEN * * * * * * * * */
+/* BILDER * * * * * * * * */
+#images {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	/* adjust the value as needed */
+	margin: 0 auto;
+}
 
-#colours{
-	width: 20%;
+.image {
+	width: 30%;
+	/* adjust the value as needed */
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+}
+
+.description {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+
 }
 
 
-#colours li{
+/* FARBEN * * * * * * * * */
+
+
+#colours ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+#colours li {
 	margin-bottom: 2em;
-	padding: 32% 0;
-	width: 100%;
+	padding: 50px;
+	width: 200px;
 	list-style-type: none;
 	text-align: center;
 	color: #fff;
 }
 
 
-#colours li.first{
+#colours li.first {
 	background-color: #8Ad071;
 }
 
-#colours li.second{
+#colours li.second {
 	background-color: #6c9af1;
 }
 
-#colours li.third{
+#colours li.third {
 	background-color: #f5f5f5;
 	color: #000000;
 	border: 1px solid black
 }
-#colours li.fourth{
+
+#colours li.fourth {
 	background-color: #000000;
 }
 
@@ -98,7 +139,7 @@ div.logo img {
 
 /* TYPOGRAFIE * * * * * * * * */
 
-#typo{
+#typo {
 	width: 70%;
 	float: left;
 	margin-left: 10%;
@@ -109,7 +150,8 @@ div.logo img {
 strong {
 	font-weight: 700;
 }
-hr{
+
+hr {
 	margin: 40px 0;
 	display: block;
 	height: 1px;
@@ -119,49 +161,63 @@ hr{
 	padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Raleway', 'sans-serif';
 	letter-spacing: 0.15rem;
 	text-align: center;
 }
+
 h1 {
 	font-size: 2.5rem;
 }
+
 h2 {
 	font-size: 2.2rem;
 }
+
 h3 {
 	font-size: 1.9rem;
 }
+
 h4 {
 	font-size: 1.6rem;
 }
+
 h5 {
 	font-size: 1.3rem;
 }
+
 h6 {
 	font-size: 1em;
 }
+
 /* Links */
 
-a, a:visited{
+a,
+a:visited {
 	color: #3d9c34;
 	transition: color 0.2s ease;
 }
 
-a:hover{
+a:hover {
 	color: #f0c026;
 }
 
 blockquote {
 	position: relative;
-padding-left: 1rem;
-border-left: 0.2rem solid;
-font-style: italic;
-font-size: 1.2rem;
+	padding-left: 1rem;
+	border-left: 0.2rem solid;
+	font-style: italic;
+	font-size: 1.2rem;
 }
 
-blockquote:before, blockquote::after {
+blockquote:before,
+blockquote::after {
 	content: '\201C';
 	color: lighten(#3d3d3d, 40%);
 }
@@ -169,43 +225,3 @@ blockquote:before, blockquote::after {
 blockquote::after {
 	content: '\201D';
 }
-
-@media screen and (max-width: 940px) {
-
-.wrapper, #colours, #typo {
-	width: 92%;
-	margin: 4%;
-}
-
-#colours li{
-	margin: 2em 1%;
-	padding: 13% 0;
-	width: 30%;
-	float: left;
-	list-style-type: none;
-	text-align: center;
-	color: #fff;
-}
-
-}
-
-.text {
-	font-size: 16px;
-}
-
-.ten-minus {
-	letter-spacing: -0.05em;
-
-}
-
-.ten-plus {
-
-letter-spacing: 0.05em;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
