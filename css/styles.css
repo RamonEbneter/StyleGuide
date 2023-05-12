@@ -98,7 +98,7 @@ div.logo img {
 
 .name {
 	margin: 0;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
 }
@@ -110,7 +110,7 @@ div.logo img {
 
 .roles > .title {
 	margin: 5px 0;
-	font-size: 16px;
+	font-size: 14px;
 	font-family: Raleway, 'sans-serif';
 	font-weight: bold;
 }
@@ -123,7 +123,7 @@ div.logo img {
 
 .role {
 	margin: 5px 0;
-	font-size: 14px;
+	font-size: 12px;
 	color: #6c9af1;
 }
 
