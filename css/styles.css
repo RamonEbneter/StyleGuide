@@ -257,3 +257,12 @@ blockquote::after {
 blockquote::after {
 	content: '\201D';
 }
+
+div.fontwrapper h1,
+div.fontwrapper h2,
+div.fontwrapper h3,
+div.fontwrapper h4,
+div.fontwrapper h5,
+div.fontwrapper h6 {
+  text-align: start;
+}
