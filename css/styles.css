@@ -340,6 +340,7 @@ div.fontwrapper h6 {
 .phone img {
 	display: block;
 	height: 100%;
+	width: 100%;
 	border: 1.334vh solid #111;
 	border-radius: 2.5vh;
 }
