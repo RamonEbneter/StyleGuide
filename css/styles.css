@@ -265,3 +265,32 @@ div.fontwrapper h5,
 div.fontwrapper h6 {
   text-align: start;
 }
+
+
+
+.icon-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.icon img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
+
+.icon p {
+	font-size: 12px;
+	margin-top: 5px;
+}
