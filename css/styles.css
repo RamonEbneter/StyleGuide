@@ -310,8 +310,8 @@ div.fontwrapper h6 {
 
 .phone {
 	position: relative;
-	height: 400px;
-	width: 200px;
+	height: 413px;
+	width: 233px;
 	margin: 0 auto;
 }
 
@@ -334,7 +334,7 @@ div.fontwrapper h6 {
 	border-bottom-right-radius: 1.75vh;
 	transform: translateX(-50%);
 	position: absolute;
-	left: 55%;
+	left: 50%;
 }
 
 .phone img {
