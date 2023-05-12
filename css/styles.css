@@ -68,18 +68,19 @@ div.logo img {
 #images {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	flex-wrap: wrap;
 	max-width: 1200px;
-	/* adjust the value as needed */
 	margin: 0 auto;
 }
 
 .image {
-	width: 30%;
-	/* adjust the value as needed */
-	position: relative;
+	width: calc(33.33% - 10px);
 	margin-bottom: 20px;
+}
+
+.image:first-child, .image:nth-child(2), .image:nth-child(3) {
+	margin-bottom: 0;
 }
 
 .image img {
@@ -87,13 +88,45 @@ div.logo img {
 	height: auto;
 }
 
-.description {
+.details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.name {
+	margin: 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.roles {
 	margin-top: 10px;
 	text-align: center;
-	font-size: 14px;
-	color: #333;
-
 }
+
+.roles > .title {
+	margin: 5px 0;
+	font-size: 16px;
+	font-family: Raleway, 'sans-serif';
+	font-weight: bold;
+}
+
+.roles > ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.role {
+	margin: 5px 0;
+	font-size: 14px;
+	color: #6c9af1;
+}
+
 
 
 /* FARBEN * * * * * * * * */
