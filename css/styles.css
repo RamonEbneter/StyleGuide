@@ -10,7 +10,7 @@
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato';
 	font-size: 1rem;
 	background: #f5f5f5;
 	color: #3d3d3d;
@@ -29,7 +29,7 @@ header {
 	background: #8Ad071;
 	padding: 20px 0;
 	text-align: center;
-	font-family: 'Dosis', sans-serif;
+	font-family: sans-serif;
 	font-weight: 400;
 }
 
@@ -93,7 +93,6 @@ div.logo img {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 10px;
-	font-family: 'Raleway', sans-serif;
 }
 
 .name {
@@ -111,7 +110,7 @@ div.logo img {
 .roles > .title {
 	margin: 5px 0;
 	font-size: 14px;
-	font-family: Raleway, 'sans-serif';
+	font-family: Raleway;
 	font-weight: bold;
 }
 
@@ -199,7 +198,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Raleway', 'sans-serif';
+	font-family: 'Raleway';
 	letter-spacing: 0.15rem;
 	text-align: center;
 }
