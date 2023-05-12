@@ -294,3 +294,58 @@ div.fontwrapper h6 {
 	font-size: 12px;
 	margin-top: 5px;
 }
+
+.screenshots {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.screenshot {
+	width: 300px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.phone {
+	position: relative;
+	height: 400px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.phone .notch-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+}
+
+.phone .notch-container .notch {
+	width: 15vh;
+	height: 3.25vh;
+	margin: 0 auto;
+	background-color: #111;
+	border-bottom-left-radius: 1.75vh;
+	border-bottom-right-radius: 1.75vh;
+	transform: translateX(-50%);
+	position: absolute;
+	left: 55%;
+}
+
+.phone img {
+	display: block;
+	height: 100%;
+	border: 1.334vh solid #111;
+	border-radius: 2.5vh;
+}
+
+.screenshot-description {
+	font-size: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
